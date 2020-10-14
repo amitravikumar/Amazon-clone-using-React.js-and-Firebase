@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.css';
+import Header from './Header';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hey, Lets make amazon clone!!! 🚀</h1>
+      //BEM Convention for CSS
+    <div className="app">
+        <Header />
+        {/* Header*/}
+        {/* Home */}
     </div>
   );
 }
