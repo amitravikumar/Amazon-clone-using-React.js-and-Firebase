@@ -8,8 +8,8 @@ function Header() {
             <img className="header__logo" src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"/>
 
             <div className="header__search">
-            <input className="header__searchinput" />
-            <SearchIcon className="header__searchIcon" />
+                <input className="header__searchinput" />
+                <SearchIcon className="header__searchIcon" />
                 {/* Logo */}
             </div>
 
