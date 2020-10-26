@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './Header';
 import Home from './Home';
+import Checkout from './Checkout';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 
@@ -10,16 +11,13 @@ function App() {
       <Router>
         {/*BEM Convention for CSS*/}
         <div className="app">
+          <Header />
            <Switch>
             <Route path="/Checkout">
-               <Header />
-                <h1> hey I am, the checkout page. Lets code this complete.</h1>
+              <Checkout />
             </Route>
             <Route path="/">
-              <Header />
-               {/* Header*/}
-               <Home />
-               {/* Home */}
+              <Home />
             </Route>
            </Switch>
         </div>
