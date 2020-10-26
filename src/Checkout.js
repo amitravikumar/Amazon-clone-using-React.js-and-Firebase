@@ -4,7 +4,16 @@ import "./Checkout.css";
 
 function Checkout (){
     return <div className="checkout">
-        <h1>Lets complete this amazon clone project</h1>
+        <div className="checkout__left">
+            <img className="checkout__ad" src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg" alt="" />
+        
+            <div className="checkout__title">
+                <h1>Your Shopping Basket</h1>
+            </div>            
+        </div>
+        <div className="checkout__right">
+            <h2>The subtotal section will go here</h2>
+        </div>
     </div>
 }
 
