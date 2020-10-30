@@ -15,7 +15,6 @@ function App() {
           <Header />
            <Switch>
             <Route path="/login">
-              <h1>This is the login page and I am a software dev</h1>
               <Login />
             </Route>
             <Route path="/Checkout">
