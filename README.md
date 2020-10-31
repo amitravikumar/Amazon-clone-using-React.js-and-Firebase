@@ -1,3 +1,5 @@
+## The project can be viewed on the following Link: https://clone-e486a.web.app
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
