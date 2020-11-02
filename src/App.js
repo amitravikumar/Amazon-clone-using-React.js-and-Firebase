@@ -45,7 +45,6 @@ function App() {
               <Checkout />
             </Route>
             <Route path="/payment">
-              <h1> I am the payment route</h1>
               <Payment />
             </Route>
             <Route path="/">
