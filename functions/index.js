@@ -23,8 +23,11 @@ app.post("/payments/create", (request, response) => {
     console.log("payment has been received for this ammount -->>>>0, total")
 
     const paymentIntent = await stripe.paymentIntent.create({
-        ammount:total,
+        ammount:total, // Sub units of the currency that has been added for the payments
         currency: "inr",
+    })
+    response.status(201).send({
+        clientSecret: paymentIntent.client_secret,
     })
 })
 
