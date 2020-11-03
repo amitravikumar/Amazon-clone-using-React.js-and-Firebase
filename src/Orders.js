@@ -3,8 +3,8 @@ import './Orders.css';
 
 function Orders() {
     return (
-        <div>
-            
+        <div className="orders">
+            <h1>Your orders will be visible here</h1>
         </div>
     )
 }
